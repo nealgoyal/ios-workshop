@@ -15,7 +15,7 @@ class AddViewController: UIViewController {
         if (textField.text != nil) && textField.text != "" {
             itemList?.append(textField.text!)
             textField.text = ""
-            textField.placeholder = "Add more ?"
+            textField.placeholder = "Item Name"
         }
     }
     override func viewDidLoad() {
